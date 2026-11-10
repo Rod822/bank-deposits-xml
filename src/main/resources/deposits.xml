@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bank xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="deposits.xsd">
+    <deposit account-id="UA577463706433044529403940290">
+        <name>ПриватБанк</name>
+        <country>Україна</country>
+        <type>term</type>
+        <depositor>Олена Коваленко</depositor>
+        <amount-on-deposit>150000.00</amount-on-deposit>
+        <profitability>13.5</profitability>
+        <time-constraints>12</time-constraints>
+    </deposit>
+    <deposit account-id="UA779434546157682949041085372">
+        <name>ПриватБанк</name>
+        <country>Україна</country>
+        <type>on-demand</type>
+        <depositor>Андрій Шевченко</depositor>
+        <amount-on-deposit>24500.50</amount-on-deposit>
+        <profitability>2.0</profitability>
+        <time-constraints>1</time-constraints>
+    </deposit>
+    <deposit account-id="UA445771270770717917023650806">
+        <name>Ощадбанк</name>
+        <country>Україна</country>
+        <type>savings</type>
+        <depositor>Марія Бондаренко</depositor>
+        <amount-on-deposit>80000.00</amount-on-deposit>
+        <profitability>11.0</profitability>
+        <time-constraints>6</time-constraints>
+    </deposit>
+    <deposit account-id="UA957813511813060106243290383">
+        <name>Ощадбанк</name>
+        <country>Україна</country>
+        <type>term</type>
+        <depositor>Іван Ткаченко</depositor>
+        <amount-on-deposit>320000.00</amount-on-deposit>
+        <profitability>14.0</profitability>
+        <time-constraints>24</time-constraints>
+    </deposit>
+    <deposit account-id="UA112466067774000364861316141">
+        <name>monobank</name>
+        <country>Україна</country>
+        <type>accumulative</type>
+        <depositor>Софія Мельник</depositor>
+        <amount-on-deposit>45000.00</amount-on-deposit>
+        <profitability>12.0</profitability>
+        <time-constraints>12</time-constraints>
+    </deposit>
+    <deposit account-id="UA762632266836257263607494114">
+        <name>monobank</name>
+        <country>Україна</country>
+        <type>term</type>
+        <depositor>Дмитро Кравченко</depositor>
+        <amount-on-deposit>60000.00</amount-on-deposit>
+        <profitability>15.0</profitability>
+        <time-constraints>3</time-constraints>
+    </deposit>
+    <deposit account-id="UA738739782781150717085821564">
+        <name>ПУМБ</name>
+        <country>Україна</country>
+        <type>settlement</type>
+        <depositor>Наталія Олійник</depositor>
+        <amount-on-deposit>12800.75</amount-on-deposit>
+        <profitability>0.5</profitability>
+        <time-constraints>12</time-constraints>
+    </deposit>
+    <deposit account-id="UA613373003569930406028338848">
+        <name>ПУМБ</name>
+        <country>Україна</country>
+        <type>term</type>
+        <depositor>Тарас Лисенко</depositor>
+        <amount-on-deposit>200000.00</amount-on-deposit>
+        <profitability>14.5</profitability>
+        <time-constraints>18</time-constraints>
+    </deposit>
+    <deposit account-id="UA099837975272130154120291353">
+        <name>Райффайзен Банк</name>
+        <country>Україна</country>
+        <type>savings</type>
+        <depositor>Ірина Мороз</depositor>
+        <amount-on-deposit>95000.00</amount-on-deposit>
+        <profitability>9.5</profitability>
+        <time-constraints>9</time-constraints>
+    </deposit>
+    <deposit account-id="UA961217109222360516641969357">
+        <name>Райффайзен Банк</name>
+        <country>Україна</country>
+        <type>on-demand</type>
+        <depositor>Олег Савченко</depositor>
+        <amount-on-deposit>7300.00</amount-on-deposit>
+        <profitability>1.0</profitability>
+        <time-constraints>1</time-constraints>
+    </deposit>
+    <deposit account-id="UA560531366093685086502635260">
+        <name>А-Банк</name>
+        <country>Україна</country>
+        <type>term</type>
+        <depositor>Юлія Поліщук</depositor>
+        <amount-on-deposit>110000.00</amount-on-deposit>
+        <profitability>16.0</profitability>
+        <time-constraints>12</time-constraints>
+    </deposit>
+    <deposit account-id="UA606702023949960018802599198">
+        <name>А-Банк</name>
+        <country>Україна</country>
+        <type>accumulative</type>
+        <depositor>Максим Руденко</depositor>
+        <amount-on-deposit>30000.00</amount-on-deposit>
+        <profitability>13.0</profitability>
+        <time-constraints>6</time-constraints>
+    </deposit>
+    <deposit account-id="UA472964996812904447514649701">
+        <name>Укргазбанк</name>
+        <country>Україна</country>
+        <type>metal</type>
+        <depositor>Віктор Гончаренко</depositor>
+        <amount-on-deposit>250000.00</amount-on-deposit>
+        <profitability>1.5</profitability>
+        <time-constraints>12</time-constraints>
+    </deposit>
+    <deposit account-id="UA156474340703162935691405256">
+        <name>Укргазбанк</name>
+        <country>Україна</country>
+        <type>savings</type>
+        <depositor>Катерина Марченко</depositor>
+        <amount-on-deposit>70000.00</amount-on-deposit>
+        <profitability>10.5</profitability>
+        <time-constraints>36</time-constraints>
+    </deposit>
+    <deposit account-id="UA945323808140081431177500146">
+        <name>Sense Bank</name>
+        <country>Україна</country>
+        <type>settlement</type>
+        <depositor>Богдан Петренко</depositor>
+        <amount-on-deposit>18200.00</amount-on-deposit>
+        <profitability>0.1</profitability>
+        <time-constraints>24</time-constraints>
+    </deposit>
+    <deposit account-id="UA156976393423226512032614465">
+        <name>Sense Bank</name>
+        <country>Україна</country>
+        <type>metal</type>
+        <depositor>Анна Захарченко</depositor>
+        <amount-on-deposit>480000.00</amount-on-deposit>
+        <profitability>2.0</profitability>
+        <time-constraints>60</time-constraints>
+    </deposit>
+</bank>

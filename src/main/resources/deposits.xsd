@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+    <xs:element name="bank" type="bankType"/>
+
+    <xs:complexType name="bankType">
+        <xs:sequence>
+            <xs:element name="deposit" type="depositType"
+                        maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="depositType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="country" type="xs:string"/>
+            <xs:element name="type" type="depositKind"/>
+            <xs:element name="depositor" type="xs:string"/>
+            <xs:element name="amount-on-deposit" type="amount"/>
+            <xs:element name="profitability" type="percent"/>
+            <xs:element name="time-constraints" type="months"/>
+        </xs:sequence>
+        <xs:attribute name="account-id" type="accountId"
+                      use="required"/>
+    </xs:complexType>
+
+    <!-- номер рахунку: IBAN України, унікальний у файлі -->
+    <xs:simpleType name="accountId">
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="UA[0-9]{27}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="depositKind">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="on-demand"/>
+            <xs:enumeration value="term"/>
+            <xs:enumeration value="settlement"/>
+            <xs:enumeration value="accumulative"/>
+            <xs:enumeration value="savings"/>
+            <xs:enumeration value="metal"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="amount">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="0"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- річний відсоток -->
+    <xs:simpleType name="percent">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="100"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- строк вкладу в місяцях -->
+    <xs:simpleType name="months">
+        <xs:restriction base="xs:int">
+            <xs:minInclusive value="1"/>
+            <xs:maxInclusive value="120"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

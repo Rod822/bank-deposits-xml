@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bank>
+    <deposit account-id="UA000000000000000000000000001">
+        <name>ПриватБанк</name>
+        <country>Україна</country>
+        <type>term</type>
+        <depositor>Олена Коваленко</depositor>
+        <amount-on-deposit>150000.00</amount-on-deposit>
+        <profitability>13.5</profitability>
+        <time-constraints>12</time-constraints>
+    </deposit>
+    <deposit account-id="UA000000000000000000000000001">
+        <name>ПриватБанк</name>
+        <country>Україна</country>
+        <type>term</type>
+        <depositor>Олена Коваленко</depositor>
+        <amount-on-deposit>150000.00</amount-on-deposit>
+        <profitability>13.5</profitability>
+        <time-constraints>12</time-constraints>
+    </deposit>
+</bank>
