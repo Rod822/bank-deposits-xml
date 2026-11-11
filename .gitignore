@@ -9,3 +9,5 @@ logs/
 .settings/
 
 .DS_Store
+
+deposits-by-type.xml
